@@ -20,7 +20,12 @@ body {
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+    display: block !important;
+/*    position: static !important;
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+*/
 }
 
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
